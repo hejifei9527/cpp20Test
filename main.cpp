@@ -70,9 +70,6 @@ uint32_t hash(std::string key) {
 }
 
 int main() {
-    for (int i = 0; i < 10; i++) {
-        std::cout << i << ": " << hash(std::to_string(i)) << std::endl;
-    }
 //    for(int i = 0; i < threadSize; i++) {
 //        vecDataQueue.emplace_back();
 //    }
